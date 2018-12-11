@@ -1,0 +1,10 @@
+"Source_Name (required,code)","Source_Sample_ID (max 30 characters)","Source_Patient_ID (max 30 characters)","Local_Sample_ID (required,max 30 characters)","Local_Patient_ID (required,max 7 characters)","Patient_ID (7 characters)","Sample_Class (code)","Sample_Type (code)","Pathological_Status (code)","Storage_Room (code)","Cabinet_Type (code)","Cabinet_Temperature (code)","Cabinet_Number (Integer 1~99 )","Shelf_Number (Integer 1~99 )","Rack Number (Integer 1~99 )","Box Number (Integer 1~99 )","Position Number (1~100 or 1~81 based on Sample_Type)","Quantity_Value (Decimal(10,5))","Quantity_Unit  (30 characters)","Concentration_Value  (Decimal(10,5))","Concentration_Unit  (30 characters)","Specimen Type (code)","Anatomical Site (code)","Anatomical Laterality (code)","Nucleotide Size (code)","Procedure_Type (code)","Procedure Date","Sample_Contributor_Consortium (code)","Sample_Contributor_Institute (code)","Date Derived From Parent Sample","Notes (max 100 characters)"
+13,"sam2","pat2","EMC-12","G000001",,"01",12,"01","1","1","1","1","4","8","45","81",,,"36.8","g/ml",3,"1.a",2,1,1,"2017-01-15",1,1,"2017-01-15","notes test1"
+13,,"pat3","EMC-13","G000001",,"01",13,"01","1","1","1",,,,"36","1","36.12","ml",,,2,,1,,2,,,3,,
+13,"sam4",,"EMC-14","G000002",,"01",,"01","1","1",2,5,"9","20","79",,,,,,2,"1.e.a",,,3,,2,,,
+13,"sam5","pat5","EMC-15","G000003",,"01",13,"01","1","1",2,,,,,"15","15.69","cc",,,2,,,2,4,,4,98,,"notes test2"
+13,"sam6","pat6","EMC-16","G000004",,"02",21,"01","1","1","99",,,,,,,,,,4,"1.f",3,2,5,"2018-11-15",,,"2018-11-15",
+13,,,"EMC-17","G000005",,"02",23,"01",1,1,,"99",,,"58",,,,,,4,3,,,6,,98,,,
+13,"sam8","pat8","EMC-18","G000006",,,,,,,,,,,,21,,,17,"kg/m3",98,4,,1,98,,,2,,"notes test3"
+13,"sam9","pat9","EMC-19","G000007",,"02",,,1,1,,81,,,,,123.7,,,,98,8,99,,99,,99,99,,
+13,"sam10","pat10","EMC-20","G003621",,,,"02",,99,,,,,"99",,"120",,,,98,99,,,,,,,,
